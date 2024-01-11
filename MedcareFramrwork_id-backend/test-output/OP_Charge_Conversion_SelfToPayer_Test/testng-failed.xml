@@ -18,7 +18,8 @@
     <classes>
       <class name="BillingTest.OP_Charge_Conversion_SelfToPayer_Test">
         <methods>
-          <include name="TC_02_OP_Charge_Conversion_Self_To_Payer" invocation-numbers="0"/>
+          <include name="TC_02_OP_Charge_Conversion_Self_To_Payer"/>
+          <include name="TC_01_Verify_Login"/>
           <include name="startBrowser"/>
           <include name="afterTest"/>
         </methods>
